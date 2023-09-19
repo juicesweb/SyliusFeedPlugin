@@ -4,7 +4,7 @@
     "license": "MIT",
     "type": "symfony-bundle",
     "require": {
-        "php": "^8.0",
+        "php": ">=7.4 || ^8.0",
         "ext-json": "*",
         "doctrine/collections": "^1.6",
         "doctrine/orm": "^2.7",
@@ -24,7 +24,7 @@
         "symfony/console": "^4.4 || ^5.4",
         "symfony/dependency-injection": "^4.4 || ^5.4",
         "symfony/event-dispatcher": "^4.4 || ^5.4",
-        "symfony/event-dispatcher-contracts": "^1.1 || ^2.2",
+        "symfony/event-dispatcher-contracts": "^1.1 || ^2.2 || ^3.0",
         "symfony/form": "^4.4 || ^5.4",
         "symfony/http-foundation": "^4.4 || ^5.4.7",
         "symfony/http-kernel": "^4.4 || ^5.4",
